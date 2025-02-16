@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Happy 26th birthday sanso>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,8 @@
     <style>
         body {
             text-align: center;
-            background: linear-gradient(135deg, #ff6b6b, #ffa502);
+            background: url('your-image-url-here') no-repeat center center fixed;
+            background-size: cover;
             color: #fff;
             font-family: 'Comic Sans MS', cursive;
             margin: 0;
@@ -36,7 +37,8 @@
         .candle {
             width: 20px;
             height: 100px;
-            background: orange;
+            background:url('https://ibb.co/nMpXLCJj') no-repeat center center fixed;
+;
             margin: 20px auto;
             border-radius: 5px;
             position: relative;
@@ -71,7 +73,7 @@
     </div>
     <p id="blowMsg">Blow out the candle to start the surprise! 🎤</p>
 
-    <audio id="birthdaySong" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" preload="auto"></audio>
+    <audio id="birthdaySong" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" preload="auto"></audio>
 
     <script>
         function listenForBlow() {
